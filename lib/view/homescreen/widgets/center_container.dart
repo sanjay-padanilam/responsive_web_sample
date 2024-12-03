@@ -16,7 +16,7 @@ class CenterSection extends StatelessWidget {
         gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
             crossAxisCount: 3, mainAxisSpacing: 10, crossAxisSpacing: 10),
         itemBuilder: (context, index) => Container(
-          color: Colors.black,
+          color: Colors.orange,
         ),
       ),
     );
